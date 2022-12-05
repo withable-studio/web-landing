@@ -1,9 +1,7 @@
 body {
     font-family: "pretendard", sans-serif;
     color: white;
-    /* background-color: #092032; */
-    /* background-color: #092032; */
-    background: linear-gradient(-27deg, #092032, #092032);
+    background: linear-gradient(-27deg, #0A1F33, #0A1F33);
     background-size: 400% 400%;
     animation: gradient 6s ease infinite;
     width: 100vw;
