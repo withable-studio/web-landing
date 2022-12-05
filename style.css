@@ -1,0 +1,42 @@
+body {
+    font-family: "pretendard", sans-serif;
+    color: white;
+    background-color: #092032;
+    width: 100vw;
+    height: 90vh;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    margin: 1.2vh 2vw 0 2vw;
+    width: 90vw;
+    height: auto;
+}
+
+.main-title {
+    font-size: 6vw;
+    font-weight: 800;
+}
+
+.main-logo {
+    font-size: 3vw;
+    font-weight: 500;
+}
+
+.spacer {
+    height: 15vw;
+}
+
+pre {
+    font-family: "pretendard", sans-serif;
+}
+
+a {
+    text-decoration: underline;
+    color: white;
+    font-size: 2vw;
+}
