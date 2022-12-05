@@ -1,8 +1,11 @@
 body {
     font-family: "pretendard", sans-serif;
     color: white;
-    background-color: #092032;
+    /* background-color: #092032; */
+    /* background-color: #092032; */
+    background: linear-gradient(-27deg, #092032, #092032);
     background-size: 400% 400%;
+    animation: gradient 6s ease infinite;
     width: 100vw;
     height: 90vh;
     margin: 0;
@@ -37,4 +40,18 @@ a {
     text-decoration: underline;
     color: white;
     font-size: 3vw;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
